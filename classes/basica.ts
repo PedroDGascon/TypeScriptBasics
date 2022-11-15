@@ -53,9 +53,10 @@
     }
 
     const antman: Avenger = new Avenger('Antman', 'Capitan', 'Scott Lang');
-    console.log(antman)
+    //console.log(antman)
 
     //Los metodos o propiedades estaticas solo pueden ser accedidas a ellos usando el nombre de la clase y no mediante instancias de la misma.
-    console.log(Avenger.getAvgAge() );
+    
+    //console.log(Avenger.getAvgAge() );
 
 })()
